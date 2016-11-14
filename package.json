@@ -1,0 +1,21 @@
+{
+  "name": "node-example",
+  "version": "1.0.0",
+  "description": "Rocket で node を使ったプロジェクトをテストするサンプルリポジトリです",
+  "scripts": {
+    "test": "mocha -R spec test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rocket-ci/node-example.git"
+  },
+  "author": "ryohey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rocket-ci/node-example/issues"
+  },
+  "homepage": "https://github.com/rocket-ci/node-example#readme",
+  "dependencies": {
+    "mocha": "^3.1.2"
+  }
+}
